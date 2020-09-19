@@ -1,0 +1,17 @@
+{
+  "name": "download-tils-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "download": "node index.js download",
+    "check:down": "node index.js check"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "log4js": "^6.1.2",
+    "request": "^2.88.2"
+  }
+}
